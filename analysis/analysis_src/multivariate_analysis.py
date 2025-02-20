@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Abstract Base Class for Multivariate Analysis
-class Multivariate_analysis(ABC):
+class Multivariate_analysisMultivariate_analysis(ABC):
     def analyze(self, df: pd.DataFrame):
         """
         Perform a comprehensive multivariate analysis by generating a correlation heatmap and pair plot.
